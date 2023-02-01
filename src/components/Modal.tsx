@@ -29,6 +29,9 @@ export const Modal = () => {
                         <Dialog.Title className="text-3xl leading-tight font-extrabold">
                             Criar hábito
                         </Dialog.Title>
+                        <Dialog.Description>
+                            Alo
+                        </Dialog.Description>
                 </Dialog.Content>
             </Dialog.Portal>
         </Dialog.Root>

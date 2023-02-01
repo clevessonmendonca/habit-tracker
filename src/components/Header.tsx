@@ -2,10 +2,12 @@ import * as Avatar from '@radix-ui/react-avatar';
 import * as Popover from '@radix-ui/react-popover';
 import { Navbar } from './Navbar';
 
+import Logo from '../assets/logo.png'
+
 export const Header = () => {
   return (
     <div className='container px-4 flex items-center justify-between mx-auto my-4'>
-        <div>Logo</div>
+        <img className='w-14 rounded-full' src={Logo} alt="Habit Day Logo" />
         <div>
             <Popover.Root>
                 <Popover.Trigger>
